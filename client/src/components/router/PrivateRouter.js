@@ -11,7 +11,7 @@ const PrivateRouter = ({ component: Component, ...rest }) => {
 		<div>
 			<Route
 				{...rest}
-				render={(props) =>
+				component={(props) =>
 					isSignedIn ? (
 						<Component {...props} />
 					) : (

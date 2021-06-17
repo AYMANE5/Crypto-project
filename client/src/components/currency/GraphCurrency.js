@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 import "./currency.scss";
+import "./graphcurrency.scss";
 
 const GraphCurrency = ({ name, one, two, three, four, five }) => {
 	const [chartData, setChartData] = useState({});

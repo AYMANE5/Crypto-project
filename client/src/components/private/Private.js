@@ -28,7 +28,7 @@ const Private = () => {
 				setPrivateData(data.data);
 			} catch (error) {
 				localStorage.removeItem("authToken");
-				setError("Vous devez vous connecter");
+				setError("");
 			}
 		};
 
